@@ -1,4 +1,4 @@
-var isPowerOfTwo = funtion(n) {
+var isPowerOfTwo = function(n) {
     if(n < 1){
         return false;
     } 
@@ -16,3 +16,9 @@ var isPowerOfTwo = funtion(n) {
     }
     return true;
 };
+
+console.log(isPowerOfTwo(3));
+console.log(isPowerOfTwo(4));
+console.log(isPowerOfTwo(32));
+console.log(isPowerOfTwo(0));
+console.log(isPowerOfTwo(-1));
